@@ -11,4 +11,4 @@ Pre-requisites
 Running
 -------
 
-mvn exec:java -Dexec.args="whatever you want to put here it does not matter"
+    mvn exec:java -Dexec.args="whatever you want to put here it does not matter"
