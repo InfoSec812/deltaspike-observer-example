@@ -18,6 +18,7 @@ import org.apache.deltaspike.cdise.api.ContextControl;
 public class Main {
     
     public static void main(String[] args) {
+        LOG.info("Argument list is "+args.length+" items long");
         Configuration config = new Configuration();
         config.setArgs(args);
         

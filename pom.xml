@@ -44,6 +44,7 @@
             <groupId>org.apache.deltaspike.cdictrl</groupId>
             <artifactId>deltaspike-cdictrl-weld</artifactId>
             <version>${deltaspike.version}</version>
+            <scope>runtime</scope>
         </dependency>
 
         <dependency>
@@ -56,6 +57,7 @@
             <groupId>org.jboss.weld.se</groupId>
             <artifactId>weld-se</artifactId>
             <version>${version.lib.weld-se}</version>
+            <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -79,6 +81,12 @@
                 <configuration>
                     <executable>maven</executable>
                     <mainClass>com.zanclus.deltaspike.observer.Main</mainClass>
+                    <arguments>
+                        <argument>this</argument>
+                        <argument>is</argument>
+                        <argument>a</argument>
+                        <argument>test</argument>
+                    </arguments>
                 </configuration>
             </plugin>
         </plugins>
